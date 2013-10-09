@@ -127,6 +127,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Context\DXtremeWebApiContext.cs" />
+    <Compile Include="Models\Document.cs" />
+    <Compile Include="Models\Message.cs" />
+    <Compile Include="Models\MessageHeader.cs" />
+    <Compile Include="Models\MessageWithHeader.cs" />
+    <Compile Include="Models\Notification.cs" />
+    <Compile Include="Models\Repositories\DocumentRepository.cs" />
+    <Compile Include="Models\Repositories\MessageRepository.cs" />
+    <Compile Include="Models\Repositories\UserRepository.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -231,7 +242,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
